@@ -1,0 +1,20 @@
+    aliases = {
+        '(Default)'	:	'base_view',
+	'view'		:	'base_view',
+	'edit'		:	'base_edit',
+	'base'	        :       'base_view',
+	'pdf'		:	'pdf_view',
+	'form'		:	'form_view',
+	}
+
+def view(self,REQUEST):
+	"""
+	Test
+	"""
+        skin = self.portal_skins.newspaper_templates
+        showTemplate=skin.showIssue
+	parent = self.aq_inner.aq_parent
+	for broadsheet in parent.listFolderContents(contentFilter={"portal_type":"Issue"}):
+        	return showTemplate.pt_render(REQUEST,broadsheet)
+
+    security.declareProtected(permissions.View,'the_issues')

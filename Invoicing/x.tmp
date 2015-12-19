@@ -1,0 +1,7 @@
+        theImage=self.getPicture()
+        theBlob = theImage.getBlob()
+        theString = theBlob.open().read()
+        theStringIO=StringIO(str(theString))
+        im = Image.open(theStringIO)
+        im2 = im.transpose(1)
+        theStringIO2=StringIO(str(im2.tostring()))		

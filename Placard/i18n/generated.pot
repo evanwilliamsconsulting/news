@@ -1,0 +1,63 @@
+# archgenxml generated POT File
+# unknown <unknown>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: Placard\n"
+"POT-Creation-Date: Tue Mar 10 04:43:29 2015\n"
+"PO-Revision-Date: Tue Mar 10 04:43:29 2015\n"
+"Last-Translator: unknown <unknown>\n"
+"Language-Team: unknown <unknown>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: latin1 utf-8\n"
+"Domain: Placard\n"
+
+#. Default: "Choicecategory"
+#: Entree.py
+msgid "Placard_label_ChoiceCategory"
+msgstr ""
+
+#. Default: "Description"
+#: Entree.py
+#: Meal.py
+msgid "Placard_label_Description"
+msgstr ""
+
+#. Default: "Email"
+#: Placard.py
+msgid "Placard_label_Email"
+msgstr ""
+
+#. Default: "Name"
+#: Entree.py
+#: Meal.py
+#: Placard.py
+msgid "Placard_label_Name"
+msgstr ""
+
+#. Default: "Price"
+#: PriceGroup.py
+msgid "Placard_label_Price"
+msgstr ""
+
+#. Default: "Pricegroup"
+#: Entree.py
+#: PriceGroup.py
+msgid "Placard_label_PriceGroup"
+msgstr ""
+
+#. Default: "Website"
+#: Placard.py
+msgid "Placard_label_Website"
+msgstr ""
+
+#. Default: "Name"
+#: Category.py
+#: Choice.py
+msgid "Placard_label_name"
+msgstr ""
+

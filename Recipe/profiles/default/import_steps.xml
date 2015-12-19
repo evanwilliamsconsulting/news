@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<import-steps>
+
+ 
+
+
+ <import-step 
+    id="Recipe-Update-RoleMappings" 
+    handler="Products.Recipe.setuphandlers.updateRoleMappings"
+    title="Update Workflow role mappings for Recipe"
+    version="2013-02-24T08:48:04.013423">
+   <dependency step="Recipe-QI-dependencies"/>
+   updates the workflow role mappings for Recipe
+ </import-step>
+
+ <import-step 
+    id="Recipe-postInstall" 
+    handler="Products.Recipe.setuphandlers.postInstall"
+    title="manual coded post-install for Recipe"
+    version="2013-02-24T08:48:04.013423">
+   <dependency step="Recipe-QI-dependencies"/>
+   manual coded post-install for Recipe
+ </import-step>
+
+<!-- ##code-section ADDITIONALSTEPS -->
+<!-- ##/code-section ADDITIONALSTEPS -->
+
+</import-steps>
+ 

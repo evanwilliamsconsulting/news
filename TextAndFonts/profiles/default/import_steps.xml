@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<import-steps>
+
+ 
+
+
+ <import-step 
+    id="TextAndFonts-Update-RoleMappings" 
+    handler="Products.TextAndFonts.setuphandlers.updateRoleMappings"
+    title="Update Workflow role mappings for TextAndFonts"
+    version="2011-07-07T13:14:14.239450">
+   <dependency step="TextAndFonts-QI-dependencies"/>
+   updates the workflow role mappings for TextAndFonts
+ </import-step>
+
+ <import-step 
+    id="TextAndFonts-postInstall" 
+    handler="Products.TextAndFonts.setuphandlers.postInstall"
+    title="manual coded post-install for TextAndFonts"
+    version="2011-07-07T13:14:14.239450">
+   <dependency step="TextAndFonts-QI-dependencies"/>
+   manual coded post-install for TextAndFonts
+ </import-step>
+
+<!-- ##code-section ADDITIONALSTEPS -->
+<!-- ##/code-section ADDITIONALSTEPS -->
+
+</import-steps>
+ 

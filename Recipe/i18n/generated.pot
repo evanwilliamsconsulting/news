@@ -1,0 +1,78 @@
+# archgenxml generated POT File
+# unknown <unknown>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: Recipe\n"
+"POT-Creation-Date: Sun Feb 24 08:48:03 2013\n"
+"PO-Revision-Date: Sun Feb 24 08:48:03 2013\n"
+"Last-Translator: unknown <unknown>\n"
+"Language-Team: unknown <unknown>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: latin1 utf-8\n"
+"Domain: Recipe\n"
+
+#. Default: "Author"
+#: Recipe.py
+msgid "Recipe_label_Author"
+msgstr ""
+
+#. Default: "Conclusion"
+#: Recipe.py
+msgid "Recipe_label_Conclusion"
+msgstr ""
+
+#. Default: "Description"
+#: Steps.py
+msgid "Recipe_label_Description"
+msgstr ""
+
+#. Default: "Details"
+#: Ingredient.py
+msgid "Recipe_label_Details"
+msgstr ""
+
+#. Default: "Ingredients"
+#: Steps.py
+msgid "Recipe_label_Ingredients"
+msgstr ""
+
+#. Default: "Introduction"
+#: Recipe.py
+msgid "Recipe_label_Introduction"
+msgstr ""
+
+#. Default: "Quantity"
+#: Ingredient.py
+msgid "Recipe_label_Quantity"
+msgstr ""
+
+#. Default: "Testedin"
+#: Recipe.py
+msgid "Recipe_label_TestedIn"
+msgstr ""
+
+#. Default: "Array:ingredients"
+#: Steps.py
+msgid "Recipe_label_array:Ingredients"
+msgstr ""
+
+#. Default: "Finishedlook"
+#: Recipe.py
+msgid "Recipe_label_finishedLook"
+msgstr ""
+
+#. Default: "Measure"
+#: Ingredient.py
+msgid "Recipe_label_measure"
+msgstr ""
+
+#. Default: "Stepnumber"
+#: Steps.py
+msgid "Recipe_label_stepNumber"
+msgstr ""
+

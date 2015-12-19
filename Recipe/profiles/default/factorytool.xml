@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<object name="portal_factory" meta_type="Plone Factory Tool">
+ <factorytypes>
+  <type portal_type="Recipe"/>
+  <type portal_type="Ingredient"/>
+  <type portal_type="Measure"/>
+  <type portal_type="Steps"/>
+ </factorytypes>
+</object>

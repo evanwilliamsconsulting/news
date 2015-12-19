@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<object name="portal_skins"
+        meta_type="Plone Skins Tool"
+        allow_any="False"
+        cookie_persistence="False"
+        request_varname="plone_skin">
+
+ <object name="dialogues_images"
+         meta_type="Filesystem Directory View"
+         directory="Dialogues/skins/dialogues_images"/>
+ <object name="dialogues_styles"
+         meta_type="Filesystem Directory View"
+         directory="Dialogues/skins/dialogues_styles"/>
+ <object name="dialogues_templates"
+         meta_type="Filesystem Directory View"
+         directory="Dialogues/skins/dialogues_templates"/>
+ 
+ <skin-path name="*">
+  <layer insert-after="custom" 
+         name="dialogues_images"/>
+  <layer insert-after="custom" 
+         name="dialogues_styles"/>
+  <layer insert-after="custom" 
+         name="dialogues_templates"/>
+ </skin-path>
+
+</object>

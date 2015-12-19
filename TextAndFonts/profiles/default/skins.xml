@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<object name="portal_skins"
+        meta_type="Plone Skins Tool"
+        allow_any="False"
+        cookie_persistence="False"
+        request_varname="plone_skin">
+
+ <object name="textandfonts_images"
+         meta_type="Filesystem Directory View"
+         directory="TextAndFonts/skins/textandfonts_images"/>
+ <object name="textandfonts_styles"
+         meta_type="Filesystem Directory View"
+         directory="TextAndFonts/skins/textandfonts_styles"/>
+ <object name="textandfonts_templates"
+         meta_type="Filesystem Directory View"
+         directory="TextAndFonts/skins/textandfonts_templates"/>
+ <object name="textandfonts_javascripts"
+         meta_type="Filesystem Directory View"
+         directory="TextAndFonts/skins/textandfonts_javascripts"/>
+ 
+ <skin-path name="*">
+  <layer insert-after="custom" 
+         name="textandfonts_images"/>
+  <layer insert-after="custom" 
+         name="textandfonts_templates"/>
+  <layer insert-after="custom" 
+         name="textandfonts_javascripts"/>
+ </skin-path>
+
+</object>

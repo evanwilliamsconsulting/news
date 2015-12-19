@@ -1,0 +1,9 @@
+		    fRed = 0
+		    fGreen = 0
+		    fBlue = 0
+		    left = ll
+		    top = tt
+		    width = 100
+		    height = 100
+		    c.setFillColorRGB(fRed,fGreen,fBlue)
+		    c.rect(left,top,width,height,fill=0)

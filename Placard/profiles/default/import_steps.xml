@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<import-steps>
+
+ 
+
+
+ <import-step 
+    id="Placard-Update-RoleMappings" 
+    handler="Products.Placard.setuphandlers.updateRoleMappings"
+    title="Update Workflow role mappings for Placard"
+    version="2015-03-10T04:43:30.844950">
+   <dependency step="Placard-QI-dependencies"/>
+   updates the workflow role mappings for Placard
+ </import-step>
+
+ <import-step 
+    id="Placard-postInstall" 
+    handler="Products.Placard.setuphandlers.postInstall"
+    title="manual coded post-install for Placard"
+    version="2015-03-10T04:43:30.844950">
+   <dependency step="Placard-QI-dependencies"/>
+   manual coded post-install for Placard
+ </import-step>
+
+<!-- ##code-section ADDITIONALSTEPS -->
+<!-- ##/code-section ADDITIONALSTEPS -->
+
+</import-steps>
+ 

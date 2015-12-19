@@ -1,0 +1,17 @@
+    def callPDFPDTBySameName(self,c,x,y,REQUEST,parent,top,pagenumber):
+	    """
+	    Test
+	    """
+	    y = 1200 - y
+	    self.left = x
+	    self.top = y
+            print self.Title()
+	    self.pagenumber=pagenumber
+            skinTool = getToolByName(self, 'portal_skins')
+	    items = self.listFolderContents(contentFilter={"portal_type":"Advertizement"})
+	    for ad in items:
+		theImage = ad.getImage()
+	        thePress = ImageReader(StringIO(str(theImage.data)))
+		(width,height) = thePress.getSize()
+	        c.drawImage(thePress,x,y,width,height)
+	    return (x,y)

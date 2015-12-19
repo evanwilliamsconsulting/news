@@ -1,0 +1,7 @@
+            sRed = 0
+            sGreen = 1
+            sBlue = 1            
+            width = 7
+            height = 7
+            c.setFillColorRGB(sRed,sGreen,sBlue)
+            c.setStrokeColorRGB(sRed,sGreen,sBlue)

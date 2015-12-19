@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<import-steps>
+
+ 
+
+
+ <import-step 
+    id="Dialogues-Update-RoleMappings" 
+    handler="Products.Dialogues.setuphandlers.updateRoleMappings"
+    title="Update Workflow role mappings for Dialogues"
+    version="2014-08-18T00:32:34.732889">
+   <dependency step="Dialogues-QI-dependencies"/>
+   updates the workflow role mappings for Dialogues
+ </import-step>
+
+ <import-step 
+    id="Dialogues-postInstall" 
+    handler="Products.Dialogues.setuphandlers.postInstall"
+    title="manual coded post-install for Dialogues"
+    version="2014-08-18T00:32:34.732889">
+   <dependency step="Dialogues-QI-dependencies"/>
+   manual coded post-install for Dialogues
+ </import-step>
+
+<!-- ##code-section ADDITIONALSTEPS -->
+<!-- ##/code-section ADDITIONALSTEPS -->
+
+</import-steps>
+ 

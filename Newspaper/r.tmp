@@ -1,0 +1,11 @@
+        ReferenceField(
+                name='article',
+                widget=InAndOutWidget(
+                        label='Article',
+                        label_msgid='Newspaper_label_article',
+                        i18n_domain='Newspaper',
+                        ),
+                allowed_types=('Wordage',),
+                multiValued=1,
+                relationship='containerLocation',
+                ),

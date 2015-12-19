@@ -1,0 +1,8 @@
+    StringField(
+        name='divid',
+        widget=StringField._properties['widget'](
+            label='Divid',
+            label_msgid='Newspaper_label_divid',
+            i18n_domain='Newspaper',
+        ),
+    ),

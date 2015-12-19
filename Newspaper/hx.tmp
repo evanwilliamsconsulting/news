@@ -1,0 +1,2 @@
+        json_item['type']='Headline'
+        json_item['name']=title

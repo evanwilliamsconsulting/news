@@ -1,0 +1,11 @@
+    ReferenceField(
+        name='measure',
+	allowedTypes=('Measure',),
+	relationship='ingredientMeasure',
+	keepReferencesOnCopy=1,
+        widget=ReferenceBrowserWidget(
+            label='Measure',
+            label_msgid='Recipe_label_measure',
+            i18n_domain='Recipe',
+        ),
+    ),
